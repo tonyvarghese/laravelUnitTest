@@ -32,7 +32,7 @@ class ProductControllerTest extends TestCase
      * */
     public function can_create_a_product()
     {
-        //$product = factory('App\Product')->make();
+        //$product = factory('App\Product')->make(); //test
 
         $product = [
             'name' => "New Product",
